@@ -82,6 +82,51 @@
                 break;
             
         }
+
+        let pi=3.14;
+        function calculateArea(radius) {
+        const area = pi * radius * radius;
+        return area;
+        }
+
+        const radius = 4;
+        const area = calculateArea(radius);
+        console.log(`Area of circle: ${area}`);
+
+        //No Argument And No Return
+        function greet()
+        {
+            console.log("Hello Everyone !!");
+        }
+        greet();
+
+
+        //Argument But No Return
+        function person(name)
+        {
+            console.log(`Hii ${name}`);
+        }
+        person('Sahil');
+
+        //No Argument But Return
+        function test()
+        {
+            return 35 ;
+        }
+        const Totalmarks= test();
+        console.log(`Result : ${Totalmarks}`);
+
+        //Argument and Return
+        function calculate(length,breath)
+        {
+            const area = length * breath;
+           
+            return area;
+        }
+        
+        const area1 = calculate(5,5);
+        console.log(`area of rectangle: ${area1}`);
+
         
     </script>
 </body>
